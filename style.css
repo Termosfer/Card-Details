@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    background: url(images/bg-main-desktop.png) no-repeat left;
+    background-size: contain;
+    height: 100vh;
+    width: 100%; 
+}
