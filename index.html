@@ -1,35 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | Interactive card details form</title>
-</head>
-<body>
-  
-<div class="container">
-  <form action="">
-    <label for=""></label>
-    <input type="text">
-    <label for=""></label>
-    <input type="text">
-    <h6>Wrong format,numbers only</h6>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Interactive card details form</title>
+  </head>
+  <body>
+    <div class="card-front"></div>
+    <div class="card-back"></div>
+    <div class="container">
+      <form action="">
+        <div class="">
+          <label for="">CARDHOLDER NAME</label>
+          <input class="input" type="text" />
+        </div>
+        <div class="">
+          <label for="">CARD NUMBER</label>
+          <input class="input" type="text" />
+          <h6>Wrong format,numbers only</h6>
+        </div>
+        <div class="">
+        <div class="span">
+          <span>EXP.DATE (MM/YY)</span>
+          <span>CVC</span>
+          <span></span> 
+        </div>
 
-<h3>EXP.DATE (MM/YY) <span>CVC</span></h3>
+        <div class="all-input">
+          <div class="left-input">
+            <input class="input1" type="text" placeholder="DD" />
+            <input class="input2" type="text" placeholder="YY" />
+          </div>
+          <div class="input-right">
+            <input class="input3" type="text" placeholder="e.g 123" />
+          </div>
+        </div>
 
-  </form>
-</div>/div>
+        <span>Can't be blank</span>
+        <span>Can't be blank</span>
+        <button>Confirm</button>
+      </div>
+      </form>
+    </div>
 
-// https://prod.liveshare.vsengsaas.visualstudio.com/join?CE7E5118F1A7C7F39EC08432FC8C7E728A1F
+    <!-- https://prod.liveshare.vsengsaas.visualstudio.com/join?CE7E5118F1A7C7F39EC08432FC8C7E728A1F -->
 
+    <!-- BackGround -->
+    <img class="BG" />
+    <!-- BackGround -->
 
-
-<img>
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
 
 <!--  -->
