@@ -167,3 +167,6 @@ form {
   font-size: 15px;
 }
 
+.error {
+  border: 3p;
+}
