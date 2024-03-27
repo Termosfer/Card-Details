@@ -15,11 +15,11 @@ cardnumberinput.addEventListener("input", () => {
   for (let i = 0; i < cardNumberValue.length; i++) {
     if (i > 0 && i % 4 === 0) {
       formatted += " ";
+      cardNumberValue.value = "*"
     }
     formatted += cardNumberValue.charAt(i);
   }
     cardnumberinput.value = formatted;
-  
   
   // Card Number'ın innerText'ini değiştir
 });
