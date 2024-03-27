@@ -10,6 +10,28 @@
   <link rel="stylesheet" href="style.css" />
   <title>Frontend Mentor | Interactive card details form</title>
 </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="">
+          <label for="cardholder">CARDHOLDER NAME</label>
+          <input
+            maxlength="30"
+            name="cardholder"
+            class="cardholder input"
+            type="text"
+          />
+        </div>
+        <div class="">
+          <label for="cardnumber">CARD NUMBER</label>
+          <input
+            maxlength="19"
+            name="cardnumber"
+            class="cardnumber input"
+            type="text"
+          />
+          <h6>Wrong format,numbers only</h6>
+        </div>
 
 <body>
   <div class="container">
@@ -34,6 +56,8 @@
           <input maxlength="2" class="input1" type="text" placeholder="MM" />
           <input maxlength="2" class="input2" type="text" placeholder="YY" />
         </div>
+      <div class="card-back">
+        <span class="cvc">000</span>
         <div class="input-right">
           <input class="input3" type="text" placeholder="e.g 123" />
         </div>
