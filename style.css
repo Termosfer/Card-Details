@@ -167,3 +167,8 @@ form {
   font-size: 15px;
 }
 
+.cvc {
+  position: absolute;
+  top: 110px;
+  right: 60px;
+}

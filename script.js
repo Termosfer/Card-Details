@@ -6,6 +6,8 @@ let cardDayInput = document.querySelector(".input1");
 let cardDay = document.querySelector("#a");
 let cardYearInput = document.querySelector(".input2");
 let cardYear = document.querySelector("#b");
+let cvc = document.querySelector(".cvc");
+let span2 = document.querySelector(".span2")
 // Card Number input alanının keyup event'ini dinleyen fonksiyon
 cardnumberinput.addEventListener("input", () => {
   let formatted = "";
@@ -41,3 +43,7 @@ cardDayInput.addEventListener("input", () => {
 cardYearInput.addEventListener("input", () => {
   cardYear.innerText = cardYearInput.value;
 });
+
+span2.addEventListener("input", ()=>{
+cvc.innerText = span2.value;
+})
