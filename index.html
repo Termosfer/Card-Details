@@ -1,34 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="style.css" />
   <title>Frontend Mentor | Interactive card details form</title>
 </head>
+
 <body>
-  
-<div class="container">
-  <form action="">
-    <label for=""></label>
-    <input type="text">
-    <label for=""></label>
-    <input type="text">
-    <h6>Wrong format,numbers only</h6>
+  <div class="container">
+    <form action="">
+      <div class="">
+        <label for="cardholder">CARDHOLDER NAME</label>
+        <input name="cardholder" class="cardholder input" type="text" />
+      </div>
+      <div class="">
+        <label for="cardnumber">CARD NUMBER</label>
+        <input maxlength="19" name="cardnumber" class="cardnumber input" type="text" />
+        <h6>Wrong format,numbers only</h6>
+      </div>
 
-<h3>EXP.DATE (MM/YY) <span>CVC</span></h3>
+      <div class="span">
+        <span class="span1">EXP.DATE (MM/YY)</span>
+        <span class="span2">CVC</span>
+      </div>
 
-  </form>
-</div>/div>
+      <div class="all-input">
+        <div class="left-input">
+          <input maxlength="2" class="input1" type="text" placeholder="MM" />
+          <input maxlength="2" class="input2" type="text" placeholder="YY" />
+        </div>
+        <div class="input-right">
+          <input class="input3" type="text" placeholder="e.g 123" />
+        </div>
+      </div>
+      <div class="span-div">
+        <span class="text-size">Can't be blank</span>
+        <span class="text-size">Can't be blank</span>
+      </div>
 
-// https://prod.liveshare.vsengsaas.visualstudio.com/join?CE7E5118F1A7C7F39EC08432FC8C7E728A1F
+      <button>Confirm</button>
+    </form>
+  </div>
 
+  <!-- https://prod.liveshare.vsengsaas.visualstudio.com/join?FAEEC454BC1598449B58FD6C1D334687259A -->
 
 <img>
+  <!-- BackGround -->
+  <div class="BG">
+    <div class="card-front">
+      <div class="circle">
+        <img src="./images/card-logo.svg" alt="" />
+      </div>
+      <div class="clone-input">
+        <h1>0000 0000 0000 0000</h1>
+      </div>
+      <div class="clone-span">
+        <span class="name">thomas anderson</span>
+        <div class="date"><span class="exp" id="a">09</span>/<span id="b">22</span></div>
+      </div>
+    </div>
+    <div class="card-back"></div>
+  </div>
+  <!-- BackGround -->
+
   <script src="script.js"></script>
 </body>
-</html>
 
-<!--  -->
+</html>
